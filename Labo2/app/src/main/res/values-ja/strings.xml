@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labo2</string>
+    <string name="txt_contador">Kaunta</string> <string name="btn_ingles">Eigo</string>
+    <string name="btn_espanol">Supeingo</string>
+    <string name="btn_japones">Nihongo</string>
+
+    <string name="estado_create">onCreate wo toorimashita</string>
+    <string name="estado_start">onStart wo toorimashita</string>
+    <string name="estado_resume">onResume wo toorimashita</string>
+    <string name="estado_pause">onPause wo toorimashita</string>
+    <string name="estado_stop">onStop wo toorimashita</string>
+    <string name="estado_destroy">onDestroy wo toorimashita</string>
+    <string name="estado_restart">onRestart wo toorimashita</string>
+</resources>

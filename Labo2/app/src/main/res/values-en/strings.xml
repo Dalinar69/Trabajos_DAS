@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labo2</string>
+    <string name="txt_contador">Counter</string>
+    <string name="btn_ingles">English</string>
+    <string name="btn_espanol">Spanish</string>
+    <string name="btn_japones">Japanese</string>
+
+    <string name="estado_create">Passed onCreate</string>
+    <string name="estado_start">Passed onStart</string>
+    <string name="estado_resume">Passed onResume</string>
+    <string name="estado_pause">Passed onPause</string>
+    <string name="estado_stop">Passed onStop</string>
+    <string name="estado_destroy">Passed onDestroy</string>
+    <string name="estado_restart">Passed onRestart</string>
+</resources>

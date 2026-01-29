@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Labo2</string>
+
+    <string name="txt_contador">Contador</string>
+    <string name="btn_ingles">Inglés</string>
+    <string name="btn_espanol">Español</string>
+    <string name="btn_japones">Japonés</string>
+
+    <string name="estado_create">Pasó por onCreate</string>
+    <string name="estado_start">Pasó por onStart</string>
+    <string name="estado_resume">Pasó por onResume</string>
+    <string name="estado_pause">Pasó por onPause</string>
+    <string name="estado_stop">Pasó por onStop</string>
+    <string name="estado_destroy">Pasó por onDestroy</string>
+    <string name="estado_restart">Pasó por onRestart</string>
+</resources>
