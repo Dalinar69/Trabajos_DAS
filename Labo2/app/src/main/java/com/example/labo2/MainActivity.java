@@ -85,9 +85,6 @@ public class MainActivity extends AppCompatActivity {
         anadirLog(R.string.estado_create);
     }
 
-    // ---------------------------------------------------------
-    // RESTO DEL CÓDIGO IDÉNTICO
-    // ---------------------------------------------------------
 
     private void aplicarConfiguracionIdioma(String codigo) {
         if (codigo == null) return;
