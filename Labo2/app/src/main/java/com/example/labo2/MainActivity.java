@@ -26,27 +26,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // ---------------------------------------------------------
-        // 1. RECUPERAR DATOS (EL ORDEN IMPORTA)
+        // 1. RECUPERAR DATOS
         // ---------------------------------------------------------
 
-        // PRIORIDAD 1: ¿Es una rotación (o el sistema mató la app)?
+        // PRIORIDAD 1:
         if (savedInstanceState != null) {
             idiomaActual = savedInstanceState.getString("idioma_actual");
             i = savedInstanceState.getInt("valor_i");
             listaEstados = savedInstanceState.getIntegerArrayList("lista_estados");
             if (listaEstados == null) listaEstados = new ArrayList<>();
 
-            // ¡¡AQUÍ SÍ SUMAMOS!! (Porque hemos girado)
+
             i++;
         }
-        // PRIORIDAD 2: ¿Venimos de cambiar el idioma manualmente?
+        // PRIORIDAD 2:
         else if (getIntent() != null && getIntent().hasExtra("idioma_seleccionado")) {
             idiomaActual = getIntent().getStringExtra("idioma_seleccionado");
             i = getIntent().getIntExtra("valor_i", 0);
             listaEstados = getIntent().getIntegerArrayListExtra("lista_estados");
             if (listaEstados == null) listaEstados = new ArrayList<>();
 
-            // AQUÍ NO SUMAMOS (Solo hemos cambiado idioma, no girado)
         }
 
         // ---------------------------------------------------------
@@ -87,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // ---------------------------------------------------------
-    // RESTO DEL CÓDIGO IDÉNTICO (NO TOCAR)
+    // RESTO DEL CÓDIGO IDÉNTICO
     // ---------------------------------------------------------
 
     private void aplicarConfiguracionIdioma(String codigo) {
