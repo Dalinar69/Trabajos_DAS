@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Labo3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Labo3" parent="Base.Theme.Labo3" />
+
+    <style name="FuenteDAS">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">#F5F5F5</item>
+        <item name="android:textColorHint">#E0E0E0</item>
+    </style>
+
+    <style name="FuenteDASParaEditText" parent="FuenteDAS">
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="TemaDAS" parent="Theme.AppCompat">
+        <item name="colorPrimary">#6200EA</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#00E676</item>
+    </style>
+</resources>
